@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="glass">
+  <h3>Login</h3>
+  <select onchange="go(this.value)">
+    <option>Select Role</option>
+    <option value="admin.html">Admin</option>
+    <option value="customer.html">Customer</option>
+  </select>
+</div>
+<script>
+function go(p){ if(p) location.href=p; }
+</script>
+</body>
+</html>
